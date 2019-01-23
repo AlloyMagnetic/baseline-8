@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8813a4b1db1eef99ed5fa10541417260",
+    "content-hash": "87a025f1c175b4f13bf21b19ce1369f2",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1980,6 +1980,10 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Fix nested js modals": "https://www.drupal.org/files/issues/2018-10-26/0001-Fix-nested-js-modals.patch",
+                    "Pass dialogClass to top of modal DOM": "https://www.drupal.org/files/issues/2018-10-26/0001-Pass-dialogClass-to-top-of-modal-DOM.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3770,6 +3774,9 @@
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Support entity reference revisions": "https://www.drupal.org/files/issues/support_entity_revision-2367235-92.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3881,6 +3888,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Fix syntax error": "https://www.drupal.org/files/issues/syntax_error_in-2913956-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8480,6 +8490,11 @@
         {
             "name": "webflo/drupal-core-strict",
             "version": "8.0.0-beta15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-strict.git",
+                "reference": "1eb044b722ebe44bc6af86a03888415d7f31c057"
+            },
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
