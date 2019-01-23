@@ -101,3 +101,9 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+.composer
+.drush
+web/status.php
+web/status.sh
+web/libraries
+components
