@@ -40,6 +40,12 @@ web/web.config
 # repository as a custom upstream. The .gitignore file
 # is not modified in the GitHub PR workflow.
 
+.composer
+.drush
+web/status.php
+web/status.sh
+web/libraries
+components
 
 # :::::::::::::::::::::: cut ::::::::::::::::::::::
 
@@ -101,9 +107,3 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
-.composer
-.drush
-web/status.php
-web/status.sh
-web/libraries
-components
